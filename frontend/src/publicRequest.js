@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:3000/api";
+const BASE_URL = "https://db-project-1-4jo2.onrender.com/api";
 
 export const publicRequest = BASE_URL;
 
