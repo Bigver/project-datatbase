@@ -1,0 +1,159 @@
+nav{
+    overflow: hidden;
+    user-select: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 0.8rem;
+    width: 100%;
+  }
+  
+  nav .logo{
+      color: rgb(3, 0, 0);
+      padding-left: 30%;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      @media only screen and (max-width: 500px) {
+        padding-left: 0%;
+      }
+      img{
+        width: 150px;
+        height: 100px;
+        @media only screen and (max-width: 500px) {
+          width: 130px;
+          height: 80px;
+          padding-left: 30%;
+        }
+      }
+    }
+    nav{
+      height: 100px;
+      background: #ffffff;
+      box-shadow: 0 3px 15px rgba(0,0,0,.4);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav ul{
+      float: right;
+      margin-right: 3%;
+    }
+    nav ul li{
+      display: inline-block;
+    }
+    nav ul li a{
+      text-decoration: none;
+      color: rgb(5, 1, 1);
+      display: block;
+      padding: 0 10px;
+      line-height: 70px;
+      background: #ffffff;
+      transition: .5s;
+
+    }
+    nav ul li a:hover,
+    nav ul li a.active{
+      position: relative;
+    }
+    nav ul ul{
+      list-style: none;
+      text-decoration: none;
+      position: absolute;
+      margin-top: 20px;
+      opacity: 0;
+      visibility: hidden;
+      z-index: 10;
+    }
+    nav ul li:hover > ul{
+      top: 50px;
+      opacity: 1;
+      visibility: visible;
+      z-index: 10;
+    }
+    nav ul ul li{
+      margin-left: 5%;
+      width: 130px;
+      display: list-item;
+      position: relative;
+      border: 1px solid #050a0c;
+      border-top: none;
+        @media only screen and (max-width: 500px) {
+          width: 100px;
+          font-weight: bold;
+        }
+      }
+    nav ul ul li a{
+      line-height: 50px;
+      @media only screen and (max-width: 500px) {
+        font-size: 0.7rem;
+      }
+    }
+    nav ul ul ul{
+      border-top: none;
+    }
+    nav ul ul ul li{
+      position: relative;
+      top: -70px;
+      left: 150px;
+    }
+    nav ul ul li a i{
+      margin-left: 45px;
+    }
+  
+  .admin-icon{
+    margin-left: 5px;
+  }
+    
+    .ul-1{
+     margin-left: 8%;
+     z-index: 10;
+     position: absolute;
+     @media only screen and (max-width: 800px) {
+      display: none;
+    }
+    }
+  
+    .ul-2{
+      z-index: 10;
+      .span-num{
+        position: absolute;
+        bottom: 5px;
+        font-size: 0.7rem;
+        font-weight: bold;
+        color: rgb(71, 65, 65);
+  
+      }
+      margin-right: 5%;  
+      @media only screen and (max-width: 800px) {
+          margin-right: 8%;  
+      }
+    }
+
+
+  .ul-{
+    @media only screen and (max-width: 500px) {
+      display: flex;
+      width: 100%;
+      margin-left: 12%;
+      .li1{
+        width: 100px;
+      }
+      .li{
+        margin-right: 20%;
+        width: 200px;
+      }
+      li{
+        width: 100%;
+        a{
+          font-size: 0.7rem;
+        }
+      }  
+    }
+  }

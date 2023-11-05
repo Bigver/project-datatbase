@@ -1,0 +1,77 @@
+.auth-ctn{
+    padding-bottom: 200px;
+    .f-ctn{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        .text-1{
+            margin-top: 10%;
+            background-color: rgb(255, 255, 82);
+            color: rgb(136, 134, 134);
+            display: grid;
+            text-align: center;
+            align-items: center;
+            width: 100vh;
+            height: 50px;
+            border-radius: 10px;
+            @media (max-width:600px) {
+                width: 95%;
+                margin-left: 2%;
+            }
+            h1{
+                font-size: 1.3rem;
+            }
+        }
+
+        .form-ctn{
+            margin-top: 6%;
+            display: grid;
+            justify-content: center;
+            form{
+                .register{
+                    color: black;
+                }
+                @media (max-width:600px) {
+                    width: 60vh;
+                }
+                width: 100vh;
+                display: grid;
+                justify-content: center;
+                gap: 1.5rem;
+                .input{
+                    display: flex;
+                    label{
+                        font-size: 0.8rem;
+                        margin-right: 2%;
+                        width:100px;
+                    }
+                    input{
+                        @media (max-width:600px) {
+                            width: 40vh;    
+                            @media (max-width:500px) {
+                                width: 30vh;                
+                            }            
+                        }
+                        width: 60vh;
+                        height: 30px;
+                        border-radius: 5px;
+                        border: 1px solid rgb(202, 193, 193);
+                    }
+                }
+                
+                .submit-ctn{
+                    display: grid;
+                    justify-content: center;
+                    button{
+                        font-weight: bold;
+                        width: 200px;
+                        background-color: rgb(255, 255, 82);
+                        border: 1px solid rgb(224, 216, 202);
+                        color: rgb(139, 137, 137);
+                    }
+                }
+            }
+        }
+    }
+}
+

@@ -1,0 +1,88 @@
+.auth-ctn{
+    .f-ctn{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        .text{
+            margin-top: 10%;
+            background-color: rgb(255, 255, 82);
+            color: rgb(136, 134, 134);
+            display: grid;
+            text-align: center;
+            align-items: center;
+            width: 100vh;
+            height: 50px;
+            border-radius: 10px;
+            h1{
+                font-size: 1.5rem;
+            }
+        }
+
+        .form-ctn2{
+            @media (max-width:450px) {
+                margin-left: 45%;
+                gap: 10rem;
+            }
+            .tutor{
+                img{
+                    width: 200px;
+                    height: 200px;
+                }
+            }
+           margin-top: 5%;
+           display: grid;
+           justify-content: center;
+           margin-left: 15%;
+           gap: 5rem;
+           grid-template-columns: repeat(2 , 1fr);
+            form{
+                .imgfile{
+                    img{
+                        width: 100px;
+                        height: 100px;
+                    }
+                }
+                .register{
+                    color: black;
+                }
+                width: 50%;
+                display: grid;
+                justify-content: center;
+                gap: 1.5rem;
+                .input{
+                    display: flex;
+                    label{
+                        font-size: 0.8rem;
+                        margin-right: 2%;
+                        width:100px;
+                    }
+                    input{
+                        width: 60vh;
+                        height: 30px;
+                        border-radius: 5px;
+                        border: 1px solid rgb(202, 193, 193);
+                    }
+                }
+                
+                .submit-ctn{
+                    display: grid;
+                    justify-content: center;
+                    @media (max-width:450px) {
+                        margin-right: 150%;
+                    }
+                    button{
+                        @media (max-width:450px) {
+                            width: 120px;
+                        }
+                        font-weight: bold;
+                        width: 200px;
+                        background-color: rgb(255, 255, 82);
+                        border: 1px solid rgb(224, 216, 202);
+                        color: rgb(139, 137, 137);
+                    }
+                }
+            }
+        }
+    }
+}
+
