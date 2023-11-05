@@ -1,6 +1,5 @@
 import React from 'react'
-import Location from '../components/location'
-import img from '../img/banner-01.jpg'
+import Location from '../components/location.jsx'
 
 const HomScreen = () => {
   return (
