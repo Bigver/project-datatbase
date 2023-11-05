@@ -1,5 +1,5 @@
 import React from 'react'
-import Location from '../components/location.jsx'
+import Location from '../components/Location.jsx'
 
 const HomScreen = () => {
   return (
