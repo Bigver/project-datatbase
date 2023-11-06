@@ -4,6 +4,7 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { Store } from '../Store';
 import { toast } from 'react-toastify';
 import { publicRequest } from "../publicRequest";
+import Axios from 'axios';
 
 const RegisterScreen = () => {
     const navigate = useNavigate();
