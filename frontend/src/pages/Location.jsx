@@ -146,7 +146,7 @@ const Location = () => {
             src={product.vdo}>
           </iframe>
             <div className='map'>
-            <h1>แผ่นที่ที่ตั้ง</h1>
+            <h1>แผนที่ที่ตั้ง</h1>
             <LoadScript
               googleMapsApiKey="AIzaSyBP_Vcx-qcm1i0Ul3FHWLgrVyeIaj6_hmY" // Replace with your actual Google Maps API key
             >
