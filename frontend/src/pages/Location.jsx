@@ -98,7 +98,7 @@ const Location = () => {
         <div className="text">
           <h1>{product.name_location}</h1>
           <p>{product.details}</p>
-          <h1>{product.address}</h1>
+          <p>{product.address}</p>
           <div className='price'>
             <h1>ราคา {product.price} ฿</h1>
             <button onClick={addToCartHandler}>สมัครเรียน</button>
@@ -143,7 +143,7 @@ const Location = () => {
           <div className='border'></div>
           <div className='text-vdo'><h1>VDO ตัวอย่างการสอน</h1></div>
           <iframe width="420" height="315"
-            src="https://www.youtube.com/embed/tgbNymZ7vqY">
+            src={product.vdo>
           </iframe>
             <div className='map'>
             <h1>แผ่นที่ที่ตั้ง</h1>
