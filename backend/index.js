@@ -24,21 +24,6 @@ app.use(express.json());
 app.use(cookieParser());
 
 
-const connection = mysql.createConnection({
-  host: 'brdzmfylp6d909rvbx69-mysql.services.clever-cloud.com',
-  user: 'uhqnmjcw9vwendil',
-  password: 'D5LwPORTgOBxS6foCTjY',
-  database: 'brdzmfylp6d909rvbx69',
-  port: '3306'
-});
-
-connection.connect((err) => {
-if (err) {
-    console.error('Error connecting to MySQL:', err);
-    return;
-}
-console.log('Connected to MySQL');
-});
 
 
 app.use("/api/student", studentRoutes);
